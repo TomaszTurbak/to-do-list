@@ -1,0 +1,50 @@
+.section {
+    margin: 10px;
+    background-color: white;
+}
+
+.section__name {
+    padding: 20px;
+    margin: 0;
+}
+
+.section__content {
+    border-top: 2px solid #ddd;
+    padding: 20px;
+}
+
+.section__form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.section__addButton {
+    padding: 10px;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border: 1px;
+}
+
+.section__addButton:hover {
+    background-color: hsl(180, 100%, 35%);
+}
+
+.section__addButton:active {
+    background-color: hsl(180, 100%, 45%);
+}
+
+.section__list {
+    padding-left: 0;
+}

@@ -10,6 +10,7 @@
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/list.css" rel="stylesheet" />
     <link href="css/buttons.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -22,11 +23,21 @@
         <header class="header">
             <h1>Lista zadań</h1>
         </header>
-        <form class="js-form">
-            <input class="js-newTask">
-            <button>Dodaj zadanie</button>
-        </form>
-        <ul class="js-tasks"></ul>
+        <section class="section">
+            <h2 class="section__name">Dodaj nowe zadanie</h2>
+            <div class="section__content">
+                <form class="js-form section__form">
+                    <input class="js-newTask">
+                    <button>Dodaj zadanie</button>
+                </form>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section__name">Lista zadań</h2>
+            <div class="section__content">
+                <ul class="js-tasks section__list"></ul>
+            </div>
+        </section>
     </main>
 </body>
 

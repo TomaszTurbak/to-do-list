@@ -1,6 +1,7 @@
 .section {
     margin: 10px;
     background-color: white;
+    box-shadow: 0 0 5px #aaa;
 }
 
 .section__name {
@@ -9,14 +10,15 @@
 }
 
 .section__content {
-    border-top: 2px solid #ddd;
+    border-top: 1px solid #ddd;
     padding: 20px;
 }
 
 .section__form {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 20px;
+    grid-gap: 10px;
+    height: 40px;
 }
 
 @media (max-width: 767px) {

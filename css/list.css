@@ -7,6 +7,10 @@
     text-decoration: line-through;
 }
 
+.list__taskName--done {
+    text-decoration: line-through;
+}
+
 .list {
     display: grid;
     grid-template-columns: auto 1fr auto;

@@ -10,6 +10,7 @@ html {
 
 .body {
     margin: 0 auto;
+    max-width: 800px;
     background-color: #ddd;
     font-family: "Lato", sans-serif;
 }

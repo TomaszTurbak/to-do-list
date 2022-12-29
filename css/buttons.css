@@ -1,3 +1,21 @@
+.section__button {
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.section__button:hover {
+    background-color: rgb(0, 156, 156);
+    color: white;
+    border: none;
+}
+
+.section__button:active {
+    background-color: rgb(0, 185, 185);
+    color: white;
+    border: none;
+}
+
 .list__button {
     height: 30px;
     width: 30px;
@@ -8,21 +26,18 @@
 
 .list__button--remove {
     background-color: red;
-    border: 1px;
 }
 
 .list__button:hover {
-    background-color: hsl(348, 83%, 57%);
+    background-color: rgb(255, 118, 118);
 }
 
 .list__button:active {
-    background-color: hsl(348, 83%, 67%);
-    border: 1px solid hsl(348, 92%, 15%);
+    background-color: rgb(255, 182, 182);
 }
 
 .list__button--done {
     background-color: hsl(120, 100%, 20%);
-    border: 1px;
 }
 
 .list__button--done:hover {
@@ -31,5 +46,4 @@
 
 .list__button--done:active {
     background-color: hsl(120, 100%, 40%);
-    border: 1px solid hsl(120, 95%, 8%);
 }

@@ -3,10 +3,6 @@
     word-break: break-word;
 }
 
-.list__item--done {
-    text-decoration: line-through;
-}
-
 .list__taskName--done {
     text-decoration: line-through;
 }

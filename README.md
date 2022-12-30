@@ -6,6 +6,10 @@
 
 This another project created in the process of becoming the Frontend Developer. This time I have focused on JavaScript by creating a simple to-do-list.
 
+## Interface preview
+
+(https://github.com/TomaszTurbak/to-do-list/blob/master/images/README-image.PNG?raw=true)
+
 ## Conventions and technologies used in the project:
 
 - HTML

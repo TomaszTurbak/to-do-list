@@ -8,7 +8,7 @@ This another project created in the process of becoming the Frontend Developer. 
 
 ## Interface preview
 
-![to-do-list](https://github.com/TomaszTurbak/to-do-list/blob/master/images/README-image.PNG?raw=true)
+![preview](https://github.com/TomaszTurbak/to-do-list/blob/master/images/preview.gif?raw=true)
 
 ## Conventions and technologies used in the project:
 

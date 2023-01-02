@@ -12,19 +12,20 @@ This another project created in the process of becoming the Frontend Developer. 
 
 ## Conventions and technologies used in the project:
 
-- HTML
-  - BEM
-  - icon
-- README.md
-- @media queries
-- OpenGraph
-  - og:image
-- CSS
-  - normlaize.css
-  - Grid layout
 - JavaScript
   - document.querySelector
   - addEventListener
   - htmlString +=
   - toggleDoneButtons
-- GitHub & GitPages
+- HTML
+  - BEM
+  - icon
+- CSS
+  - normlaize.css
+  - Grid layout
+- README.md
+  - .gif
+- @media queries
+- OpenGraph
+  - og:image
+- GitHub & GitHub Pages

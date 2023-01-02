@@ -4,49 +4,13 @@
     box-shadow: 0 0 5px #aaa;
 }
 
-.section__name {
+.section__header {
     padding: 20px;
     margin: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-.section__content {
-    border-top: 1px solid #ddd;
+.section__body {
     padding: 20px;
-}
-
-.section__form {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 10px;
-    height: 40px;
-}
-
-@media (max-width: 767px) {
-    .section__form {
-        grid-template-columns: 1fr;
-    }
-}
-
-.section__input {
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.section__addButton {
-    padding: 10px;
-    background-color: hsl(180, 100%, 25%);
-    color: white;
-    border: 1px;
-}
-
-.section__addButton:hover {
-    background-color: hsl(180, 100%, 35%);
-}
-
-.section__addButton:active {
-    background-color: hsl(180, 100%, 45%);
-}
-
-.section__list {
-    padding-left: 0;
 }

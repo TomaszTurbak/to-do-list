@@ -32,19 +32,19 @@
         render();
     }
 
-    const markAllTasksDone = () => {
-        tasks = tasks.map((task) => ({
-            ...task,
-            done: true,
-        }));
+    // const markAllTasksDone = () => {
+    //     tasks = tasks.map((task) => ({
+    //         ...task,
+    //         done: true,
+    //     }));
 
-        render();
-    };
+    //     render();
+    // };
 
-    const toggleHideDoneTasks = () => {
-        hideDoneTasks = !hideDoneTasks;
-        render();
-    };
+    // const toggleHideDoneTasks = () => {
+    //     hideDoneTasks = !hideDoneTasks;
+    //     render();
+    // };
 
 
     const bindEvents = () => {

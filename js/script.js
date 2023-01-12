@@ -99,7 +99,7 @@
                 </button>
             `;
         }
-        document.querySelector("js-buttons").innerHTML = renderedButtons;
+        document.querySelector(".js-buttons").innerHTML = renderedButtons;
     };
 
     const render = () => {

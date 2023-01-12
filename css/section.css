@@ -13,9 +13,8 @@
 }
 
 .section__buttons {
-    padding: 20px 70px 20px 20px;
-    margin: 0 auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section__body {

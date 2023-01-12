@@ -37,20 +37,6 @@
         render();
     };
 
-    // const markAllTasksDone = () => {
-    //     tasks = tasks.map((task) => ({
-    //         ...task,
-    //         done: true,
-    //     }));
-
-    //     render();
-    // };
-
-    // const togglehiddenDoneTasks = () => {
-    //     hiddenDoneTasks = !hiddenDoneTasks;
-    //     render();
-    // };
-
     const toggleAllDoneTask = () => {
         tasks = tasks.map((task) => ({
             ...task,
@@ -58,7 +44,6 @@
         }));
         render();
     };
-
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -86,14 +71,14 @@
                 hideDoneTask();
             });
         };
-    };
 
-    const toggleAllDone = document.querySelector(".js-allDone");
+        const toggleAllDone = document.querySelector(".js-allDone");
 
-    if (toggleAllDone) {
-        toggleAllDone.addEventListener("click", () => {
-            toggleAllDoneTask();
-        });
+        if (toggleAllDone) {
+            toggleAllDone.addEventListener("click", () => {
+                toggleAllDoneTask();
+            });
+        };
     };
 
     const renderTasks = () => {
@@ -164,4 +149,5 @@
     };
 
     init();
+
 };

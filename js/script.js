@@ -30,7 +30,12 @@
         ];
 
         render();
-    }
+    };
+
+    const hideDoneTask = () => {
+        hiddenDoneTasks = !hiddenDoneTasks;
+        render();
+    };
 
     // const markAllTasksDone = () => {
     //     tasks = tasks.map((task) => ({
@@ -45,6 +50,14 @@
     //     hiddenDoneTasks = !hiddenDoneTasks;
     //     render();
     // };
+
+    const toggleAllDoneTask = () => {
+        tasks = tasks.map((task) => ({
+            ...task,
+            done: true,
+        }));
+        render();
+    };
 
 
     const bindEvents = () => {
@@ -64,6 +77,24 @@
             });
         });
     }
+
+    const bindButtonsEvents = () => {
+        const hiddenTaskButton = document.querySelector(".js.hideDoneTask");
+
+        if (hiddenTaskButton) {
+            hiddenTaskButton.addEventListener("click", () => {
+                hideDoneTask();
+            });
+        };
+    };
+
+    const toggleAllDone = document.querySelector(".js-allDone");
+
+    if (toggleAllDone) {
+        toggleAllDone.addEventListener("click", () => {
+            toggleAllDoneTask();
+        });
+    };
 
     const renderTasks = () => {
         let htmlString = "";
@@ -133,4 +164,4 @@
     };
 
     init();
-}
+};

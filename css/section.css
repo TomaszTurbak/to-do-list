@@ -4,12 +4,37 @@
     box-shadow: 0 0 5px #aaa;
 }
 
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 2px solid hsl(0, 0%, 90%);
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
+
 .section__header {
     display: grid;
     padding: 20px;
     margin: 0;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
+}
+
+.section__title {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-size: 20px;
 }
 
 .section__buttons {

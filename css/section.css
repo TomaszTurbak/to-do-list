@@ -17,3 +17,7 @@
     margin: 0 auto;
     display: block;
 }
+
+.section__body {
+    padding: 20px;
+}

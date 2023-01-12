@@ -24,6 +24,8 @@
 
 .section__header {
     display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
     padding: 20px;
     margin: 0;
     font-size: 20px;
@@ -31,15 +33,9 @@
 }
 
 .section__title {
-    padding: 20px;
     background-color: hsl(0, 0%, 100%);
     margin: 0;
     font-size: 20px;
-}
-
-.section__buttons {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .section__body {

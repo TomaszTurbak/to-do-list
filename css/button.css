@@ -1,29 +1,51 @@
-.button {
-    background-color: transparent;
-    color: hsl(180, 100%, 25%);
-    margin-left: 20px;
-    border-color: transparent;
-    font-size: 15px;
-    transition: 0.5s;
+.form__button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.form__button:hover {
+    background-color: rgb(0, 156, 156);
+    color: white;
+    border: none;
+    transform: scale(1.1);
+}
+
+.form__button:active {
+    background-color: rgb(0, 185, 185);
+    color: white;
+    border: none;
 }
 
 @media (max-width: 767px) {
-    .button {
+    .form__button {
         width: 100%;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 }
 
-.button:hover {
-    color: hsl(180, 79%, 41%);
+.section__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+    border: none;
+    transition: 0.3s;
+    font-size: 15px;
 }
 
-.button:active {
+.section__buttons:hover {
+    color: hsl(180, 80%, 25%);
+}
+
+.section__buttons:active {
     border: 2px solid hsl(0, 0%, 0%);
     border-radius: 5px;
 }
 
-.button:disabled {
+.section__buttons:disabled {
     color: hsl(0, 0%, 80%)
 }

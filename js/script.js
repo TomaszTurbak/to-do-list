@@ -87,10 +87,10 @@
     };
 
     const renderButtons = () => {
-        let renderButtons = "";
+        let renderedButtons = "";
 
         if (tasks.lenght > 0) {
-            renderButtons += `
+            renderedButtons += `
                 <button class="form__button js-hideDoneTask">
                     ${hiddenDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                 </button>
@@ -99,7 +99,7 @@
                 </button>
             `;
         }
-        document.querySelector("js-buttons").innerHTML = renderButtons;
+        document.querySelector("js-buttons").innerHTML = renderedButtons;
     };
 
     const render = () => {

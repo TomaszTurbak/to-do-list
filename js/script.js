@@ -105,7 +105,7 @@
     const renderButtons = () => {
         let renderedButtons = "";
 
-        if (tasks.lenght > 0) {
+        if (tasks.length > 0) {
             renderedButtons += `
                 <button class="form__button js-hideDoneTask">
                     ${hiddenDoneTasks ? "Pokaż" : "Ukryj"} ukończone

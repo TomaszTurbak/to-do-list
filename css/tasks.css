@@ -17,7 +17,12 @@
     display: none;
 }
 
+.tasks__content {
+    padding: 0 10px;
+}
+
 .tasks__content--done {
+    padding: 0 10px;
     text-decoration: line-through;
 }
 

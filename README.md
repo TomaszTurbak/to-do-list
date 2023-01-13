@@ -14,18 +14,21 @@ This another project created in the process of becoming the Frontend Developer. 
 
 - JavaScript
   - document.querySelector
+  - document.querySelectorAll
   - addEventListener
   - htmlString +=
   - toggleDoneButtons
+  - immutability
 - HTML
   - BEM
   - icon
 - CSS
   - normlaize.css
   - Grid layout
+  - transition
+  - @media queries
 - README.md
   - .gif
-- @media queries
-- OpenGraph
+- Open Graph Protocol
   - og:image
 - GitHub & GitHub Pages

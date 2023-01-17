@@ -7,7 +7,7 @@
 .tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    padding: 10px;
+    padding: 20px;
     grid-gap: 20px;
     border-bottom: 2px solid #ddd;
     align-items: center;
@@ -29,21 +29,22 @@
 .tasks__button {
     height: 30px;
     width: 30px;
-    background-color: hsl(348, 83%, 47%);
+    background-color: hsl(348, 88%, 51%);
     color: white;
     border: 1px;
+    transition: 0.3s;
 }
 
 .tasks__button--remove {
-    background-color: red;
+    background-color: hsl(0, 100%, 40%);
 }
 
 .tasks__button:hover {
-    background-color: rgb(255, 118, 118);
+    background-color: hsl(0, 100%, 60%);
 }
 
 .tasks__button:active {
-    background-color: rgb(255, 182, 182);
+    background-color: hsl(0, 100%, 75%);
 }
 
 .tasks__button--toggleDone {
@@ -51,9 +52,9 @@
 }
 
 .tasks__button--toggleDone:hover {
-    background-color: hsl(120, 100%, 30%);
+    background-color: hsl(120, 100%, 40%);
 }
 
 .tasks__button--toggleDone:active {
-    background-color: hsl(120, 100%, 40%);
+    background-color: hsl(120, 100%, 50%);
 }

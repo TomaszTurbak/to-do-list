@@ -47,5 +47,5 @@
 }
 
 .section__buttons:disabled {
-    color: hsl(0, 0%, 80%)
+    color: #ddd;
 }

@@ -16,12 +16,6 @@
     border-bottom: 2px solid hsl(0, 0%, 90%);
 }
 
-@media (max-width: 767px) {
-    .section__header {
-        grid-template-columns: 1fr;
-    }
-}
-
 .section__header {
     display: grid;
     grid-template-columns: auto auto;
@@ -30,6 +24,13 @@
     margin: 0;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
 }
 
 .section__title {
